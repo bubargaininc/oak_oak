@@ -1,0 +1,81 @@
+[2015-11-02 01:49:52] /shop/index.php?act=category&op=sd&count=45 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '45' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:38:01] /shop/index.php?act=category&count=14&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '14' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:39:04] /shop/index.php?act=category&count=14&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '14' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:39:42] /shop/index.php?act=category&count=10&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '10' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:40:44] /shop/index.php?act=category&count=13&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '13' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:41:39] /shop/index.php?act=category&count=1&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '1' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:47:44] /shop/index.php?act=category&count=2&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '2' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:49:07] /shop/index.php?act=category&count=10&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '10' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:50:41] /shop/index.php?act=category&count=20&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '20' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:52:10] /shop/index.php?act=category&count=17&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '17' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:57:24] /shop/index.php?act=category&count=23&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '23' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 09:59:26] /shop/index.php?act=category&count=3&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '3' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:06:42] /shop/index.php?act=category&count=45&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '45' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:06:46] /shop/index.php?act=category&count=3&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '3' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:09:07] /shop/index.php?act=category&count=36&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '36' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:09:44] /shop/index.php?act=category&count=35&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '35' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:10:08] /shop/index.php?act=category&count=16&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '16' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:10:56] /shop/index.php?act=category&count=49&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '49' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:11:25] /shop/index.php?act=category&count=23&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '23' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:12:18] /shop/index.php?act=category&count=53&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '53' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:12:25] /shop/index.php?act=category&count=49&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '49' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:14:20] /shop/index.php?act=category&count=4&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '4' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:17:15] /shop/index.php?act=category&count=54&op=daigou ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '54' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:18:54] /shop/index.php?act=category&count=7&op=sd ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-11-02 10:31:40] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-11-02 10:33:48] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('QQ图片20151028165936','',NULL,'04997756285602974.jpg','40985','621x530','1446431628',NULL)
+[2015-11-02 16:17:58] /shop/index.php?act=category&op=daigou&count=3 ( act=category&op=daigou ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '3' ) AND ( store_state = '1' ) AND ( grade_id = '2' ) ORDER BY store_id desc LIMIT 16  

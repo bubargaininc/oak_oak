@@ -1,0 +1,402 @@
+[2015-10-25 11:20:32] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 11:20:56] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 11:24:22] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 11:39:41] /shop/index.php?act=category&op=sd&count=7 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-25 11:48:33] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 11:48:34] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:10:50] /shop/index.php?act=category&op=sd&count=7 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-25 12:14:01] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:14:52] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:14:54] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:14:54] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:04] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:06] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:06] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:08] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:09] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:15:09] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:45:38] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:45:39] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:47:57] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:48:22] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:49:48] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:05] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:05] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:07] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:11] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:11] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:12] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:15] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:17] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:50:26] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:51:02] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:51:30] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:52:04] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:52:04] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:52:05] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:52:09] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:52:47] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:01] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:05] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:53] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:55] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:55] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:53:58] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:54:30] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:54:40] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:54:45] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:54:57] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:56:07] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:56:15] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:56:15] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 12:56:38] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 13:24:49] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('2000px-Flag_of_Austria','',NULL,'04990946891817363.png','2847','21x13','1445750689',NULL)
+[2015-10-25 13:26:28] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('02','',NULL,'04990947866555620.jpg','183167','1264x1753','1445750786',NULL)
+[2015-10-25 13:27:38] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 13:29:07] /shop/index.php?act=category&op=sd&count=7 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-25 13:37:38] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 13:59:24] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 13:59:47] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990967847181393.jpg','377881','800x800','1445752784',NULL)
+[2015-10-25 13:59:56] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04990967954895367.jpg','197508','1024x614','1445752795',NULL)
+[2015-10-25 14:00:01] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:00:24] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:00:45] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:01:08] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:01:43] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:01:45] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:01:45] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:02:34] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:03:32] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:03:44] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:03:53] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:05:27] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:05:45] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:05:46] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990971453683773.jpg','377881','800x800','1445753145',NULL)
+[2015-10-25 14:06:00] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04990971569811530.jpg','690154','1920x2000','1445753156',NULL)
+[2015-10-25 14:06:03] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:06:23] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('订餐','',NULL,'04990971826030983.jpg','174504','1264x1753','1445753182',NULL)
+[2015-10-25 14:06:25] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:06:28] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990971874732202.jpg','377881','800x800','1445753187',NULL)
+[2015-10-25 14:06:29] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:06:31] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:06:50] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990972089303882.jpg','377881','800x800','1445753208',NULL)
+[2015-10-25 14:06:50] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:07:21] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:07:25] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:07:39] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:07:48] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:08:20] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:08:22] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:08:29] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:08:39] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04990973160443918.jpg','690154','1920x2000','1445753316',NULL)
+[2015-10-25 14:08:59] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04990973365124681.jpg','690154','1920x2000','1445753336',NULL)
+[2015-10-25 14:09:05] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:09:07] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:09:33] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990973718735646.jpg','377881','800x800','1445753371',NULL)
+[2015-10-25 14:09:37] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990973766227688.jpg','377881','800x800','1445753376',NULL)
+[2015-10-25 14:09:40] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:10:11] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990974102061714.jpg','377881','800x800','1445753410',NULL)
+[2015-10-25 14:10:19] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04990974164895769.jpg','690154','1920x2000','1445753416',NULL)
+[2015-10-25 14:10:22] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:10:25] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:11:22] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:11:46] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04990975055418270.jpg','377881','800x800','1445753505',NULL)
+[2015-10-25 14:11:56] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04990975130045742.jpg','690154','1920x2000','1445753512',NULL)
+[2015-10-25 14:11:59] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:12:14] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:12:46] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:13:33] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:21:36] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:21:36] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:23:47] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:23:47] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:38:53] /shop/index.php?act=category&op=sd&count=7 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-25 14:40:48] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:40:48] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:40:51] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:40:55] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:40:55] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 14:57:49] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 14:57:51] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 14:57:54] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 14:57:56] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 14:57:56] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 14:57:57] /shop/index.php?act=category&op=shang&she=2&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-25 15:07:25] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 15:36:01] /shop/index.php?act=member_favorites&op=favoritesbrand&fid=295 ( act=member_favorites&op=favoritesbrand ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_sbrand' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_sbrand` WHERE goods_id='295' and member_id='26'
+[2015-10-25 15:36:01] /shop/index.php?act=member_favorites&op=favoritesbrand&fid=295 ( act=member_favorites&op=favoritesbrand ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_sbrand' doesn't exist
+INSERT INTO `wteflhvr_ouxiang`.`shopnc_sbrand` (`member_id`,`goods_id`,`add_time`) VALUES('26','295','1445758561')
+[2015-10-25 15:36:06] /shop/index.php?act=member_favorites&op=favoritesbrand&fid=295 ( act=member_favorites&op=favoritesbrand ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_sbrand' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_sbrand` WHERE goods_id='295' and member_id='26'
+[2015-10-25 15:36:06] /shop/index.php?act=member_favorites&op=favoritesbrand&fid=295 ( act=member_favorites&op=favoritesbrand ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_sbrand' doesn't exist
+INSERT INTO `wteflhvr_ouxiang`.`shopnc_sbrand` (`member_id`,`goods_id`,`add_time`) VALUES('26','295','1445758566')
+[2015-10-25 16:01:34] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 16:11:23] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('450px-Romanian_flag','',NULL,'04991046801574875.png','2876','21x13','1445760680',NULL)
+[2015-10-25 16:11:25] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('1280px-Flag_of_Finland_with_border','',NULL,'04991046852721617.png','3197','21x13','1445760685',NULL)
+[2015-10-25 16:32:55] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-25 22:51:51] /shop/index.php?act=category&op=sd&count=1 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '1' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  

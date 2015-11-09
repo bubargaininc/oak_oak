@@ -1,0 +1,9 @@
+[2015-10-09 18:09:50] /shop/index.php?act=category&op=shang&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-09 18:09:51] /shop/index.php?act=category&op=shang&key=2&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_click' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_click desc LIMIT 0,16  
+[2015-10-09 18:09:53] /shop/index.php?act=category&op=shang&key=3&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_price' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_price desc LIMIT 0,16  

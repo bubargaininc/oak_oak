@@ -1,0 +1,57 @@
+[2015-10-10 10:11:45] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_add' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='babybio代购',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='0',store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 10:11:53] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_add' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='0',store_work='11111',store_hun='11111',store_juzhu='11111',store_ping='0',store_add='0',store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 10:11:57] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_add' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='0',store_work='11111',store_hun='11111',store_juzhu='11111',store_ping='0',store_add='0',store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 11:10:21] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '10' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-10 11:10:33] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '10' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-10 14:39:56] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1、欢迎光临本店，本店新开张，诚信经营，只赚信誉不赚钱，谢谢。
+
+  2、本店商品均属正品，假一罚十信誉保证。 欢迎广大顾客前来放心选购，我们将竭诚为您服务!
+
+3、本店专门营销什么什么商品，假一罚十信誉保证。本店的服务宗旨是用心服务，以诚待人!',store_ziwo='',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 14:40:09] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1、欢迎光临本店，本店新开张，诚信经营，只赚信誉不赚钱，谢谢。
+2、本店商品均属正品，假一罚十信誉保证。 欢迎广大顾客前来放心选购，我们将竭诚为您服务!
+
+3、本店专门营销什么什么商品，假一罚十信誉保证。本店的服务宗旨是用心服务，以诚待人!',store_ziwo='',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 14:40:13] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1、欢迎光临本店，本店新开张，诚信经营，只赚信誉不赚钱，谢谢。
+2、本店商品均属正品，假一罚十信誉保证。 欢迎广大顾客前来放心选购，我们将竭诚为您服务!
+
+3、本店专门营销什么什么商品，假一罚十信誉保证。本店的服务宗旨是用心服务，以诚待人!',store_ziwo='',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 14:40:19] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1、欢迎光临本店，本店新开张，诚信经营，只赚信誉不赚钱，谢谢。
+
+2、本店商品均属正品，假一罚十信誉保证。 欢迎广大顾客前来放心选购，我们将竭诚为您服务!
+
+3、本店专门营销什么什么商品，假一罚十信誉保证。本店的服务宗旨是用心服务，以诚待人!',store_ziwo='山东省',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 14:40:26] /admin/index.php?act=store&op=store_edit&store_id=14 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='Individual1',sc_id='9',grade_id='2',store_end_time='',store_state='1',store_text='1、欢迎光临本店，本店新开张，诚信经营，只赚信誉不赚钱，谢谢。
+
+2、本店商品均属正品，假一罚十信誉保证。 欢迎广大顾客前来放心选购，我们将竭诚为您服务!
+
+3、本店专门营销什么什么商品，假一罚十信誉保证。本店的服务宗旨是用心服务，以诚待人!',store_ziwo='',store_work='0',store_hun='0',store_juzhu='0',store_ping='0',store_add='333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '14' )
+[2015-10-10 14:41:22] /admin/index.php?act=store&op=store_edit&store_id=1 ( act=store&op=store_edit ) 
+ERR: Db Error: Unknown column 'store_brand' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_store` SET store_name='官方店铺',sc_id='5',grade_id='1',store_end_time='',store_state='1',store_text='3333333',store_ziwo='333',store_work='4444',store_hun='44',store_juzhu='44',store_ping='444',store_add='3333',store_brand=NULL,store_close_info='',store_recommend='0' WHERE ( store_id = '1' )
+[2015-10-10 17:53:29] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '18' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-10 17:54:40] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '18' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  

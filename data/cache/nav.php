@@ -1,0 +1,1 @@
+<?php defined('InShopNC') or exit('Access Invalid!'); return array ( 0 => array ( 'nav_id' => '11', 'nav_type' => '0', 'nav_title' => '关于欧橡', 'nav_url' => '/shop/index.php?act=article&amp;op=about', 'nav_location' => '1', 'nav_new_open' => '0', 'nav_sort' => '255', 'item_id' => '0', ), ) ?>

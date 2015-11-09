@@ -1,0 +1,21 @@
+[2015-09-25 10:09:40] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-09-25 10:09:49] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-09-25 10:17:50] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-09-25 10:17:53] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-09-25 10:18:24] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-09-25 14:38:10] /shop/index.php?act=category&op=shang&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-09-25 14:38:12] /shop/index.php?act=category&op=shang&key=2&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_click' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_click desc LIMIT 0,16  

@@ -1,0 +1,96 @@
+[2015-10-26 08:35:21] /shop/index.php?act=show_store&op=taolun&store_id=10 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:19:06] /shop/index.php?act=category&op=sd&count=7 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '7' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-26 09:19:08] /shop/index.php?act=category&op=sd&count=1 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '1' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-26 09:19:10] /shop/index.php?act=category&op=sd&count=45 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '45' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-26 09:19:13] /shop/index.php?act=category&op=sd&count=3 ( act=category&op=sd ) 
+ERR: Db Error: Unknown column 'goods_count' in 'where clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_store` WHERE ( goods_count = '3' ) AND ( store_state = '1' ) AND ( grade_id = '3' ) ORDER BY store_id desc LIMIT 16  
+[2015-10-26 09:21:40] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('2015-09-24_161022','',NULL,'04991664982924556.png','432347','704x638','1445822498',NULL)
+[2015-10-26 09:23:33] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:23:36] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:23:39] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:23:46] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:23:50] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:23:52] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 09:37:20] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 10:01:50] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 10:01:53] /shop/index.php?act=show_store&op=taolun&store_id=7 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 11:01:49] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991725079235460.jpg','377881','800x800','1445828507',NULL)
+[2015-10-26 11:02:00] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('魏王卤官网-首页','',NULL,'04991725169388902.jpg','690154','1920x2000','1445828516',NULL)
+[2015-10-26 11:18:58] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991735357382007.jpg','377881','800x800','1445829535',NULL)
+[2015-10-26 11:19:06] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991735429381056.jpg','377881','800x800','1445829542',NULL)
+[2015-10-26 11:19:26] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 11:23:35] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991738140845838.jpg','377881','800x800','1445829814',NULL)
+[2015-10-26 11:23:46] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04991738262796012.jpg','197508','1024x614','1445829826',NULL)
+[2015-10-26 11:24:14] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 11:24:52] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04991738916585061.jpg','197508','1024x614','1445829891',NULL)
+[2015-10-26 11:24:59] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04991738984483549.jpg','197508','1024x614','1445829898',NULL)
+[2015-10-26 11:25:07] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 11:25:51] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04991739506270871.jpg','197508','1024x614','1445829950',NULL)
+[2015-10-26 11:25:57] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('20103129_183905434000_2','',NULL,'04991739566688779.jpg','197508','1024x614','1445829956',NULL)
+[2015-10-26 11:33:10] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991743892417060.jpg','377881','800x800','1445830389',NULL)
+[2015-10-26 11:33:15] /shop/index.php?act=home&op=image_upload ( act=home&op=image_upload ) 
+ERR: Db Error: Column 'aclass_id' cannot be null
+INSERT  INTO `wteflhvr_ouxiang`.`shopnc_album_pic` (apic_name,apic_tag,aclass_id,apic_cover,apic_size,apic_spec,upload_time,store_id) VALUES ('头像','',NULL,'04991743939868684.jpg','377881','800x800','1445830393',NULL)
+[2015-10-26 11:37:35] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-26 14:42:50] /shop/index.php?act=show_store&op=taolun&store_id=8 ( act=show_store&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `shopnc`.`shopnc_count` WHERE count_id= LIMIT 1  

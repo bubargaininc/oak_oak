@@ -1,0 +1,3 @@
+[2015-10-17 18:20:31] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '1' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  

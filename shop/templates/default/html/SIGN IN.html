@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" /> <!--禁止转码 -->
+<title>首页</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="css/JaneCC.css">
+<link rel="stylesheet" href="">
+<script src="js/jquery/jquery-1.7.2.min.js"></script>
+<script src="js/base/SuperSlide.2.1.1.min.js"></script>
+<script src="js/Validform_v5.3.2_min.js"></script>
+<script src="js/JaneCC.js"></script>
+<!--[if lt IE 9]>
+<script src="js/base/html5shiv.min.js"></script>
+<script src="js/base/respond.min.js"></script>
+<script src="js/base/ie8warning.js"></script>
+<![endif]-->
+</head>
+<body class="login">
+<div class="header">
+    <div class="headerBar">
+        
+    </div>
+    <div class="headerCon inner1024 clearfix">
+        <a href="" class="logo"><img src="img/ae-logo.png" alt=""></a>
+    </div>
+</div>
+
+<div class="content content-reg clearfix ">
+    <div class="login-banner fl">
+        <a href=""><img src="img/login-banner.png" alt=""></a>
+    </div>
+    <div class="login-module fr">
+        <form action="" class="loginform">
+        <div class="z clearfix">
+            <label>用户名：</label>
+            <input type="text" class="ipt value" name="" datatype="s5-16" errormsg=""  value="" placeholder="手机号 / 邮箱">
+            <span class="Validform_checktip"></span>
+        </div>
+        <div class="z clearfix">
+            <label>密码：</label>
+            <input class="ipt" name="" type="password" datatype="*6-15" errormsg="密码范围在6~15位之间！" value="">
+            <span class="Validform_checktip"></span>
+        </div>
+        <div class="z login-other">
+            <a class="forgot-password" href="" target="_blank">忘记密码？</a>|<a href="" class="register" target=" _blank">免费注册</a>
+        </div>
+        <div class="r">
+            <input type="submit" class="btn btn-login" value="登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录">
+        </div>
+        <div class="thirdpartner r">
+            <div class="z"><p>使用其他账号登录：</p></div>
+            <div class="third-login-btns">
+                <a class="qq-login-btn third-login-btn" href=""><img src="img/qq.png" alt="">用QQ账号登录</a>
+                <a class="sina-login-btn third-login-btn" href=""><img src="img/sina.png" alt="">用微博账号登录</a>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-info inner">
+        <div class="bluetxt inner"><span>We certified all products are exclusively imported from Europe  </span><span>我们确保所有的产品均源自欧洲</span></div>
+        <img class="img" src="img/ae-footer-info.png" alt="">
+    </div>
+    <div class="footer-con inner">
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="">购物流程</a></dd>
+            <dd><a href="">免费注册</a></dd>
+            <dd><a href="">常见问题</a></dd>
+            <dd><a href="">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="">关于物流</a></dd>
+            <dd><a href="">欧橡保证</a></dd>
+        </dl>
+        <dl>
+            <dt>支付方式</dt>
+            <dd><a href="">在线支付</a></dd>
+            <dd><a href="">货到付款</a></dd>
+            <dd><a href="">邮局汇款</a></dd>
+            <dd><a href="">支付宝付款</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="">退换货物</a></dd>
+            <dd><a href="">物流信息</a></dd>
+            <dd><a href="">售后政策</a></dd>
+            <dd><a href="">取消订单</a></dd>
+        </dl>
+        <dl>
+            <dt>VENDORS</dt>
+            <dd><a href="">About us</a></dd>
+            <dd><a href="">Guide book</a></dd>
+            <dd><a href="">News</a></dd>
+        </dl>
+        <dl>
+            <img class="ae-qrcode" src="img/ae-qcode.png" alt="">
+        </dl>
+        <dl class="callus">
+            <dt>联系我们</dt>
+            <dd>地址：上海市静安区江宁77号7楼</dd>
+            <dd>电话： 021－7878788</dd>
+            <dd>微信号： oak&knight</dd>
+        </dl>
+    </div>
+</div>
+
+<!--返回顶部-->
+<a href="javascript:;" id="J-gotop"></a>
+<script>
+$(document).ready(function () {
+$(".loginform").Validform({
+    tiptype:3,
+    showAllError:true,
+});
+$(".regform").Validform({
+    tiptype:3,
+    showAllError:true,
+});
+});
+</script>
+<!--[if IE 6]>
+<script src="js/base/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+</body>
+</html>

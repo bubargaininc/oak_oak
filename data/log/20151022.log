@@ -1,0 +1,195 @@
+[2015-10-22 00:42:06] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 09:50:54] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 09:58:14] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '19' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 10:03:35] /shop/index.php?act=brand&op=taolun&id=367 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 10:03:49] /shop/index.php?act=brand&op=taolun&id=367 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 10:04:03] /shop/index.php?act=brand&op=taolun&id=367 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 10:23:20] /shop/index.php?act=category&op=shang&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-22 11:06:14] /shop/index.php?act=category&op=shang&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-22 11:06:45] /shop/index.php?act=category&op=shang&key=1&order=2 ( act=category&op=shang ) 
+ERR: Db Error: Unknown column 'goods_salenum' in 'order clause'
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods_sheji` ORDER BY goods_salenum desc LIMIT 0,16  
+[2015-10-22 11:12:01] /shop/index.php?act=brand&op=taolun&id=295 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 11:48:50] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '19' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 11:48:51] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '19' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 11:48:54] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '19' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 11:48:57] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '19' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 11:49:15] /shop/index.php?act=brand&op=taolun&id=367 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 14:07:47] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 14:08:19] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 14:08:22] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 14:09:50] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 14:10:34] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 16:18:51] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 16:19:50] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:00:37] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:00:42] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:07:56] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:09:28] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:35:49] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:46:59] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:52:24] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 17:57:31] /shop/index.php?act=member_snsindex&op=yuan ( act=member_snsindex&op=yuan ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '9' ) ORDER BY add_time desc LIMIT 1000' at line 1
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_yuan` WHERE ( member_id = '22' ) AND ( limit = '9' ) ORDER BY add_time desc LIMIT 1000  
+[2015-10-22 18:01:54] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988521142209575.jpg', sheji_max_img = '04988521142275023.jpg'  WHERE sheji_id='5'
+[2015-10-22 18:02:00] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988521208521804.png', sheji_max_img = '04988521208526131.png'  WHERE sheji_id='5'
+[2015-10-22 18:02:02] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988521222626823.jpg', sheji_max_img = '04988521222632933.jpg'  WHERE sheji_id='5'
+[2015-10-22 18:02:20] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988521406872119.png', sheji_max_img = '04988521406886289.png'  WHERE sheji_id='5'
+[2015-10-22 18:02:22] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988521420896853.png', sheji_max_img = '04988521420902962.png'  WHERE sheji_id='5'
+[2015-10-22 18:03:24] /admin/index.php?act=member&op=sheji_edit&sheji_id=5 ( act=member&op=sheji_edit ) 
+ERR: Db Error: Unknown column 'sheji_max_img' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_goods_sheji` AS `goods_sheji` SET sheji_id = '5', sheji_name = 'Richard Hutten', sheji_desc = '', sheji_brand_desc = '', sheji_company = '', sheji_count = '荷兰', sheji_address = '荷兰', sheji_order = '', sheji_sex = '1', sheji_time = '', sheji_avatar = '04988522049118209.jpg', sheji_max_img = '04988522049120970.jpg'  WHERE sheji_id='5'
+[2015-10-22 18:09:47] /shop/index.php?act=brand&op=taolun&id=295 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_v' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 18:24:49] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:25:03] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:25:26] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:25:31] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:25:33] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:08] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:11] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:14] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:24] /shop/resource.'/js/search_goods.js'; ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:25] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:29] /shop/resource.'/js/search_goods.js'; ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:30] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:31] /shop/resource.'/js/search_goods.js'; ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:32] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:34] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:36] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:46] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:26:53] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:28:01] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 18:28:06] /shop/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT count_images FROM `wteflhvr_ouxiang`.`shopnc_count` WHERE count_id= LIMIT 1  
+[2015-10-22 20:20:41] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:25:38] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:26:06] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:26:36] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:27:00] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:27:31] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:41:51] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  
+[2015-10-22 20:56:15] /shop/index.php?act=brand&op=taolun&id=370 ( act=brand&op=taolun ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_st' at line 1
+SELECT CONCAT(goods_commonid,',',color_id) as nc_distinct , FROM `wteflhvr_ouxiang`.`shopnc_goods` WHERE ( brand_id = '370' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct LIMIT 0,24  

@@ -1,0 +1,6 @@
+[2015-10-16 13:41:21] /admin/index.php?act=brand&op=brand_edit&brand_id=373 ( act=brand&op=brand_edit ) 
+ERR: Db Error: Unknown column 'brand_pic_sm' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_brand` AS `brand` SET brand_id = '373', brand_name = 'Gallia', brand_count = '49', class_id = '959', brand_class = '母婴用品', brand_pic_sm = '04983180811215845.jpg', brand_pic = '04983180811227761.jpg', brand_pic_pc = '04983180811221105.jpg', brand_recommend = '1', brand_about = '0', brand_sort = '0'  WHERE  brand_id = '373'
+[2015-10-16 13:41:38] /admin/index.php?act=brand&op=brand_edit&brand_id=373 ( act=brand&op=brand_edit ) 
+ERR: Db Error: Unknown column 'brand_pic_sm' in 'field list'
+UPDATE `wteflhvr_ouxiang`.`shopnc_brand` AS `brand` SET brand_id = '373', brand_name = 'Gallia', brand_count = '49', class_id = '959', brand_class = '母婴用品', brand_pic_sm = '04983180981737170.jpg', brand_pic = '04983180981730539.jpg', brand_pic_pc = '04983180981743952.jpg', brand_recommend = '1', brand_about = '0', brand_sort = '0'  WHERE  brand_id = '373'

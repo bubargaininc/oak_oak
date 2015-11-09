@@ -1,0 +1,15 @@
+[2015-08-17 09:36:11] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_groupbuy' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1439775370' ) AND ( end_time > '1439775370' ) ORDER BY recommended desc LIMIT 1000  
+[2015-08-17 09:36:11] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1439775370' ) AND ( end_time > '1439775370' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2015-08-17 09:36:11] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_web' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2015-08-17 09:36:11] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_goods' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods` AS `goods` LEFT JOIN `wteflhvr_ouxiang`.`shopnc_store` AS `store` ON goods.store_id=store.store_id WHERE ( grade_id = '3' ) LIMIT 5  
+[2015-08-17 09:36:11] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'wteflhvr_ouxiang.shopnc_goods' doesn't exist
+SELECT * FROM `wteflhvr_ouxiang`.`shopnc_goods` AS `goods` LEFT JOIN `wteflhvr_ouxiang`.`shopnc_store` AS `store` ON goods.store_id=store.store_id WHERE ( grade_id = '2' ) LIMIT 5  
