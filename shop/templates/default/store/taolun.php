@@ -109,12 +109,12 @@ $bgtime=(datedif($begin, $end, 3000));
                     <div class="price">
                         <div class="original"><?php echo $val['goods_price']?></div>
                     </div>
-                    <a href="<?php echo urlShop('goods', 'index',array('goods_id'=>$val['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
+                    <a href="<?php echo urlShop('goods', 'index',array('goods_id'=>$val['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
                     <div class="ftr" style="display: none;">
                         <p class="info"></p>
                         <div class="meta">
-                 <span class="like"><a href="javascript:collect_goods('<?php echo $value['goods_id']; ?>','count','goods_collect');"><em nctype="goods_collect"><?php echo $value['goods_collect']?></em><i class="ae-like"></i></a></span>|
-                    <a class="listing" href="javascript:collect_yuan('<?php echo $output['goods']['goods_id']; ?>','count','goods_collect');">
+                 <span class="like"><a href="javascript:collect_goods('<?php echo $value['goods_id']; ?>','count','goods_collect');" ><em nctype="goods_collect"><?php echo $value['goods_collect']?></em><i class="ae-like"></i></a></span>|
+                    <a class="listing" href="javascript:collect_yuan('<?php echo $output['goods']['goods_id']; ?>','count','goods_collect');" target="_blank">
           <img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-listing.png" alt=""></a>
                 </div>
 
@@ -134,28 +134,80 @@ $bgtime=(datedif($begin, $end, 3000));
             <h3 class="tts">买家讨论：</h3>
              <ul class="commetlist">
            
-   
-   <?php if(!empty($output['taolun'] )){?>
+              <?php
+               if(!empty($output['taolun'] )){?>
             <?php foreach ($output['taolun'] as $key => $value) {?>
                 <li>
                     <a class="cover"><img src="<?php echo cthumb($value['img_1'], 240);?>" alt=""></a>
                     <a class="cover"><img src="<?php echo cthumb($value['img_2'], 240);?>" alt=""></a>
                     <div class="commetcos"><a href="" class="avatar"><img src="<?php echo getMemberAvatar($value['mem_name']['member_avatar']); ?>" alt=""><div class=""><?php echo $value['mem_name']['member_name']?></div></a><?php echo $value['text_name'];?></div>
-                    <a  style="display:none" href="" class="orangetxt fr mr28">回复</a>
+                    
+                    <?php 
+                    if($output['member_info']['member_id']==$value['user_id']){
+                    ?>
+                    <a href="javascript:void(0)"  id="<?php echo $value['id']?>" onclick="javascript:test(this);"  class="orangetxt fr mr28">删除</a>
+                  
+                    <?php }else{ ?>
+                   <a href="javascript:void(0)" id="huifu" sid="<?php echo $value['user_id']?>"  value="<?php echo $value['mem_name']['member_name']?>"   class="orangetxt fr mr28">回复</a>
+                    <?php }?>
                 </li>
                 <?php }?>
    <?php }else{?>
                 <li>暂无评论</li>
    <?php }?>
+
+
             </ul>
             
-            <div class="order-pagenavi">
-                <span>上一页</span>
-                <span class="all"><em class="bluetxt">1</em>/<em>1</em></span>
-                <a href="">下一页</a>
+         <div class="order-pagenavi">
+               <?php if(!empty($output['taolun'] )){?>
+             <?php echo $output['show_page'];?>
+             <?php }?>
             </div>
             <div class="commetform">
  
+
+
+<script type="text/javascript">
+    function test(obj){ 
+        var id=obj.id;
+        if(id!==''){
+            if(confirm("确定要删除这条评论嘛")){
+                      $.ajax({  
+            type: "post",
+            url:'<?php echo urlShop('brand', 'taolundel');?>',  
+            dataType : 'json',
+            data:{id:id},  
+            success : function (data, status) {
+                if(data == '1') {
+                       alert("删除成功");
+                       window.location.reload();
+                    }else{
+                       alert("删除失败");
+                    }
+                }  
+            }); 
+            }
+        } 
+} 
+
+
+    $("#huifu").toggle(
+     function(){
+     var val=$(this).attr("value");
+     var sid=$(this).attr("sid");
+     $(this).text('取消回复');
+     $("#hui").text('@'+val);
+     },
+     function(){
+     $(this).text('回复')
+     $("#hui").text('');
+     }
+    )
+
+</script>
+
+
 
     
                 <?php if($_SESSION['is_login'] == '1'){?>
@@ -268,11 +320,11 @@ $bgtime=(datedif($begin, $end, 3000));
             <div class="price">
                 <div class="original"><?php echo $val['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods', 'index', array('goods_id'=>$val['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods', 'index', array('goods_id'=>$val['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
             <div class="ftr" style="display: none;">
                 <p class="info"><?php echo $val['goods_jingle']?></p>
                 <div class="meta">
-                    <span class="like">0<i class="ae-like"></i></span> | 
+                    <span class="like"><?php echo $val['goods_collect']?><i class="ae-like"></i></span> | 
                     <a class="listing" href=""><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-listing.png" alt=""></a>
                 </div>
             </div>

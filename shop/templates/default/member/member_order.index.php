@@ -5,7 +5,7 @@
             <h3 class="order-tit clearfix">
                 <div class="order-tit-commodity">商品信息</div>
                 <div class="order-tit-price tr"><span class="pr20">数量</span></div>
-                <div class="order-tit-operation"><span class="pl20 order-price-show">价格</span><span class=""><div class="icheckbox_minimal-orange" style="position: relative;"></div>操作</span></div>
+                <div class="order-tit-operation"><span class="pl20 order-price-show">价格</span><span class="">操作</span></div>
             </h3>
             <div class="order-receipt-list">
              <?php if ($output['order_group_list']) { ?>
@@ -57,11 +57,50 @@
                                     <div class="osg-check-operation">
                                        
                                         <div class="order_ding">
-                                       <a class="ncu-btn7 fr mr15" href="index.php?act=buy&amp;op=pay&amp;pay_sn=490493576621410001">订单支付</a>
-                    <!--取消订单-->                    
-                                           <?php if ($order_info['if_cancel']) { ?>
-          <a href="javascript:void(0)" style="color:#F30; text-decoration:underline;" nc_type="dialog" dialog_width="480" dialog_title="<?php echo $lang['member_order_cancel_order'];?>" dialog_id="buyer_order_cancel_order" uri="index.php?act=member_order&op=change_state&state_type=order_cancel&order_id=<?php echo $order_info['order_id']; ?>"  id="order<?php echo $order_info['order_id']; ?>_action_cancel">取消订单</a>
+                                         <?php if (!empty($group_info['pay_amount']) && $p == 0) {?>
+         <a class="ncu-btn7 fr mr15" href="index.php?act=buy&op=pay&pay_sn=<?php echo $order_pay_sn; ?>">订单支付</a>
+         <?php }?>
+
+
+
+
+             <td class="bdl bdr w120" rowspan="<?php echo count($order_info['extend_order_goods']);?>">
+        <p><?php echo $order_info['state_desc']; ?><?php echo $order_info['evaluation_status'] ? $lang['member_order_evaluated'].'<br/>' : '';?></p>
+          <!-- 取消订单 -->
+          <?php if ($order_info['if_cancel']) { ?>
+          <p><a href="javascript:void(0)" style="color:#F30; text-decoration:underline;" nc_type="dialog" dialog_width="480" dialog_title="<?php echo $lang['member_order_cancel_order'];?>" dialog_id="buyer_order_cancel_order" uri="index.php?act=member_order&op=change_state&state_type=order_cancel&order_id=<?php echo $order_info['order_id']; ?>"  id="order<?php echo $order_info['order_id']; ?>_action_cancel"><?php echo $lang['member_order_cancel_order'];?></a></p>
           <?php } ?>
+
+          <!-- 物流跟踪 -->
+          <?php if ($order_info['if_deliver']){ ?>
+          <p><a href='index.php?act=member_order&op=search_deliver&order_id=<?php echo $order_info['order_id']; ?>&order_sn=<?php echo $order_info['order_sn']; ?>'><?php echo $lang['member_order_show_deliver']?></a></p>
+          <?php } ?>
+
+          <!-- 取消订单 -->
+          <?php if ($order_info['if_refund_cancel']){ ?>
+          <p><a href="javascript:void(0)" style="color:#F30; text-decoration:underline;" nc_type="dialog" dialog_title="取消订单" dialog_id="member_order_refund"
+            dialog_width="480" uri="index.php?act=member_refund&op=add_refund_all&order_id=<?php echo $order_info['order_id']; ?>" id="order<?php echo $order_info['order_id']; ?>_action_refund">取消订单</a></p>
+          <?php } ?>
+
+          <!-- 收货 -->
+          <?php if ($order_info['if_receive']) { ?>
+          <p><a href="javascript:void(0)" class="ncu-btn7 mt5" nc_type="dialog" dialog_id="buyer_order_confirm_order" dialog_width="480" dialog_title="<?php echo $lang['member_order_ensure_order'];?>" uri="index.php?act=member_order&op=change_state&state_type=order_receive&order_sn=<?php echo $order_info['order_sn']; ?>&order_id=<?php echo $order_info['order_id']; ?>" id="order<?php echo $order_info['order_id']; ?>_action_confirm"><?php echo $lang['member_order_ensure_order'];?></a></p>
+          <?php } ?>
+
+          <!-- 评价 -->
+          <?php if ($order_info['if_evaluation']) { ?>
+          <p><a class="ncu-btn6 mt5" href="index.php?act=member_evaluate&op=add&order_id=<?php echo $order_info['order_id']; ?>"><?php echo $lang['member_order_want_evaluate'];?></a></p>
+          <?php } ?>
+
+          <!-- 已经评价 -->
+          <?php if (intval($order_info['evaluation_state'])) { echo $lang['order_state_eval'];} ?>
+
+          <!-- 锁定-->
+          <?php if ($order_info['if_lock']) { ?><p>退款退货中</p><?php } ?>
+
+      
+        </td>
+
 
                                         </div>
                                     </div>
@@ -103,7 +142,7 @@
 
 
 
-<div class="wrap"  style="display:none">
+<div class="wrap" style="display:none">
   <div class="tabmenu">
     <?php include template('layout/submenu');?>
   </div>

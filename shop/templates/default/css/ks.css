@@ -284,7 +284,7 @@ h3.tts{font-weight: 700;line-height: 32px;width: 140px;height: 32px;text-align: 
 .saycommetformcont .avatar {width: 42px;overflow: hidden;height: 42px;float: left;text-align: center;margin-left: -45px;}
 .saycommetformcont .avatar img{width:25px;height: 25px;border-radius: 50%;border: 1px #6fc5d3 solid;}
 .saycommetformcont .txtipt {border-radius: 2px;border:1px #ee802e solid;width: 412px;text-indent: 92px;}
-.saycommetformcont .altname {position: absolute;top:14px;left: 66px;color: #;background: #fff;height: 24px;}
+.saycommetformcont .altname {position: absolute;top:14px;left:58px;color: #;background: #fff;height: 18px; line-height: 24px;}
 .saycommetformcont .altname span{color: #68696b;}
 .saycommetformcont .btn-commet{background: #f7c39d;margin-right: 11px;}
 
