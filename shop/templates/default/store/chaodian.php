@@ -82,7 +82,7 @@
                 <div class="original"><?php echo $lang['currency'].$value['goods_price'];?></div>
             </div>
 
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($value, 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($value, 233);?>" alt=""></a>
 
                 <div class="ftr">
                 <p class="info"><?php echo $value['goods_jingle']?> </p>
@@ -106,9 +106,7 @@
     </div><!---->
     <div class="inner">
         <div class="pagenav">
-            <a href="" class="prev dis">上一页</a>
-            <a href="" class="on ins">1</a>
-            <a href="" class="next">下一页</a>
+             <?php echo $output['show_page']; ?>
         </div>
     </div>
 </div>
