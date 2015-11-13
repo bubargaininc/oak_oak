@@ -109,6 +109,49 @@ class accountControl extends SystemControl{
 		Tpl::showpage('setting.sina_setting');
 	}
 
+	/**
+	 * 删除讨论
+	 */
+	public function taolun_delOp(){
+		$lang	= Language::getLangContent();
+		$model_brand = Model('taolun');
+		if (intval($_GET['del_count_id']) > 0){
+			$model_brand->del(intval($_GET['del_count_id']));
+			showMessage($lang['nc_common_del_succ'],'index.php?act=account&op=taolun_1');
+		}else {
+			showMessage($lang['nc_common_del_fail'],'index.php?act=account&op=taolun_1');
+		}
+	}
+
+	/**
+	 * 删除讨论
+	 */
+	public function taolun_del2Op(){
+		$lang	= Language::getLangContent();
+		$model_brand = Model('taolun');
+		if (intval($_GET['del_count_id']) > 0){
+			$model_brand->del(intval($_GET['del_count_id']));
+			showMessage($lang['nc_common_del_succ'],'index.php?act=account&op=taolun_2');
+		}else {
+			showMessage($lang['nc_common_del_fail'],'index.php?act=account&op=taolun_2');
+		}
+	}
+
+
+	/**
+	 * 删除讨论
+	 */
+	public function taolun_del3Op(){
+		$lang	= Language::getLangContent();
+		$model_brand = Model('taolun');
+		if (intval($_GET['del_count_id']) > 0){
+			$model_brand->del(intval($_GET['del_count_id']));
+			showMessage($lang['nc_common_del_succ'],'index.php?act=account&op=taolun_3');
+		}else {
+			showMessage($lang['nc_common_del_fail'],'index.php?act=account&op=taolun_3');
+		}
+	}
+
 
 
 	/**
@@ -269,6 +312,160 @@ class accountControl extends SystemControl{
 		Tpl::showpage('setting.count_setting');
 	}
 
+
+
+
+	/**
+	*商品讨论
+	*/
+	public function taolun_1Op(){
+		   $model_member = Model('taolun');
+	/**
+		 * 检索条件
+		 */
+		if ($_GET['search_field_value'] != '') {
+    		switch ($_GET['search_field_name']){
+    			case 'count_name':
+    				$condition['count_name'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_email':
+    				$condition['member_email'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_truename':
+    				$condition['member_truename'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    		}
+		}
+
+		/**
+		 * 排序
+		 */
+		$order = trim($_GET['search_sort']);
+		if (empty($order)) {
+		    $order = 'id desc';
+		}
+      	$scondition=array();
+        $scondition['type']='3'; 
+		$member_list = $model_member->getFavoritesList($scondition,10, '*');
+		$member=Model('member');
+        foreach ($member_list as $key => $value) {
+        	$condition=array();
+          	$condition['member_id']=$member_list[$key]['user_id'];
+        	$mb=$member->getMemberInfo($condition);
+        	$goods=Model('goods')->getGoodsInfo(array('goods_id'=>$value['goods_id']),'goods_name');
+        	$member_list[$key]['user_name']=$mb['member_name'];
+        	$member_list[$key]['goods_name']=$goods['goods_name'];
+        }
+		
+
+		Tpl::output('search_field_value',trim($_GET['search_field_value']));
+		Tpl::output('member_list',$member_list);
+		Tpl::output('page',$model_member->showpage());
+		Tpl::showpage('setting.taolun1_list');
+	}
+
+
+
+	/**
+	*商店讨论
+	*/
+	public function taolun_2Op(){
+		   $model_member = Model('taolun');
+	/**
+		 * 检索条件
+		 */
+		if ($_GET['search_field_value'] != '') {
+    		switch ($_GET['search_field_name']){
+    			case 'count_name':
+    				$condition['count_name'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_email':
+    				$condition['member_email'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_truename':
+    				$condition['member_truename'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    		}
+		}
+
+		/**
+		 * 排序
+		 */
+		$order = trim($_GET['search_sort']);
+		if (empty($order)) {
+		    $order = 'id desc';
+		}
+		$scondition=array();
+        $scondition['type']='2'; 
+		$member_list = $model_member->getFavoritesList($scondition,10, '*');
+		  $member=Model('member');
+        foreach ($member_list as $key => $value) {
+        	$condition=array();
+          	$condition['member_id']=$member_list[$key]['user_id'];
+          	$mb=$member->getMemberInfo($condition);
+        	$store=Model('store')->getStoreInfo(array('store_id'=>$value['goods_id']),'store_name');
+        	$member_list[$key]['user_name']=$mb['member_name'];
+        	$member_list[$key]['goods_name']=$store['store_name'];
+        }
+		
+
+		Tpl::output('search_field_value',trim($_GET['search_field_value']));
+		Tpl::output('member_list',$member_list);
+		Tpl::output('page',$model_member->showpage());
+		Tpl::showpage('setting.taolun2_list');
+	}
+
+
+
+	/**
+	*品牌讨论
+	*/
+	public function taolun_3Op(){
+		   $model_member = Model('taolun');
+	/**
+		 * 检索条件
+		 */
+		if ($_GET['search_field_value'] != '') {
+    		switch ($_GET['search_field_name']){
+    			case 'count_name':
+    				$condition['count_name'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_email':
+    				$condition['member_email'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    			case 'member_truename':
+    				$condition['member_truename'] = array('like', '%' . trim($_GET['search_field_value']) . '%');
+    				break;
+    		}
+		}
+
+		/**
+		 * 排序
+		 */
+		$order = trim($_GET['search_sort']);
+		if (empty($order)) {
+		    $order = 'id desc';
+		}
+         
+		$scondition=array();
+        $scondition['type']='1'; 
+		$member_list = $model_member->getFavoritesList($scondition,10, '*');
+		  $member=Model('member');
+        foreach ($member_list as $key => $value) {
+        	$condition=array();
+          	$condition['member_id']=$member_list[$key]['user_id'];
+        	$mb=$member->getMemberInfo($condition);
+           	$brand=Model('brand')->getbrandInfo(array('brand_id'=>$value['goods_id']),'store_name');
+        	$member_list[$key]['user_name']=$mb['member_name'];
+        	$member_list[$key]['goods_name']=$brand['brand_name'];
+        }
+		
+
+		Tpl::output('search_field_value',trim($_GET['search_field_value']));
+		Tpl::output('member_list',$member_list);
+		Tpl::output('page',$model_member->showpage());
+		Tpl::showpage('setting.taolun3_list');
+	}
 
 
 

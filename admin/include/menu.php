@@ -64,6 +64,13 @@ $arr = array(
 					array('args'=>'base,setting,setting',			'text'=>$lang['nc_web_set']),
 
 					array('args'=>'count,account,setting',		        'text'=>$lang['nc_count']),
+                   
+                   array('args'=>'taolun_1,account,setting',		        'text'=>'商品讨论'),
+
+                   array('args'=>'taolun_2,account,setting',		        'text'=>'店铺讨论'),
+
+                   array('args'=>'taolun_3,account,setting',		        'text'=>'品牌讨论'),
+
 
 					array('args'=>'qq,account,setting',		        'text'=>$lang['nc_web_account_syn']),
 					array('args'=>'param,upload,setting',			'text'=>$lang['nc_upload_set']),

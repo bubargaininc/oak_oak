@@ -74,7 +74,7 @@ class Tpl{
 	 */
 	public static function output($output,$input=''){
 		self::getInstance();
-		
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 		self::$output_value[$output] = $input;
 	}
 	

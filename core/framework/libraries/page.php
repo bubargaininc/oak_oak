@@ -214,6 +214,7 @@ class Page{
 	 */
 	public function getTotalPage(){
 		if ($this->total_page == 1){
+	
 			$this->setTotalPage();
 		}
 		return $this->total_page;
@@ -287,14 +288,21 @@ class Page{
 		 */
 		$this->setTotalPage();
 		if (!is_null($style)){
-			$this->style = $style;
+			if($this->getTotalPage()>'1'){
+			$this->style = $style;		
+			}else{
+				return '';
+			}
+		
 		}
+	
 		$html_page = '';
         $this->left_current_html = '<li><span class="currentpage">';
         $this->right_current_html = '</span></li>';
         $this->left_inside_a_html = '<span>';
         $this->right_inside_a_html = '</span>';
 		switch ($this->style) {
+		
 			case '1':
 				$html_page .= '<ul>';
 				if ($this->getNowPage() == 1){
