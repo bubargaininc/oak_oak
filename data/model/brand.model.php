@@ -46,7 +46,6 @@ class brandModel extends Model {
 	 */
 	public function getBrandList($condition,$page=''){
 		$condition_str = $this->_condition($condition);
-
 		$param = array();
 		$param['table'] = 'brand';
 		$param['order'] = $condition['order'] ? $condition['order'] : 'brand_sort';
@@ -168,7 +167,16 @@ class brandModel extends Model {
 		}
 	}
 	
-
+    /**
+     * 获取单条商品SKU信息
+     * 
+     * @param array $condition
+     * @param string $field
+     * @return array
+     */
+    public function getbrandInfo($condition, $field = '*') {
+        return $this->table('brand')->field($field)->where($condition)->find();
+    }
 
 	/**
 	 * 查询店铺列表

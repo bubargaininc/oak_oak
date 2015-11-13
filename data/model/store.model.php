@@ -31,6 +31,50 @@ class storeModel extends Model {
         return $result;
     }
 
+    /**
+     * 店铺列表
+     *
+     * @param array $condition 检索条件
+     * @return array 数组结构的返回结果
+     */
+    public function getdianpuList($condition,$page=''){
+        $condition_str = $this->_condition($condition);
+        $param = array();
+        $param['table'] = 'store';
+        $param['order'] = $condition['order'] ? $condition['order'] : 'store_id';
+        $param['where'] = $condition_str;
+        $param['field'] = $condition['field'];
+        $param['group'] = $condition['group'];
+        $param['limit'] = $condition['limit'];
+        $result = Db::select($param,$page);     
+        return $result;
+    }
+
+
+    /**
+     * 构造检索条件
+     *
+     * @param int $id 记录ID
+     * @return array $rs_row 返回数组形式的查询结果
+     */
+    private function _condition($condition){
+        $condition_str = '';
+        
+        if ($condition['store_state'] != ''){
+            $condition_str .= " and store_state = '". $condition['store_state'] ."'";
+        }
+        
+        if ($condition['grade_id'] != ''){
+            $condition_str .= " and grade_id = '". $condition['grade_id'] ."'";
+        }
+        if ($condition['keyword'] != ''){
+            $condition_str .= " and keyword = '". $condition['keyword'] ."'";
+        }
+
+        return $condition_str;
+    }
+
+
 	/**
 	 * 查询有效店铺列表
      *
