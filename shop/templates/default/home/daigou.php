@@ -114,7 +114,7 @@
                    
                 </div>
             </div>
-            <a href="<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>" class="cover hover" target="_blank">
+            <a href="<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>" class="cover hover">
               <!--<img src="<?php echo getStoreLogo($value['store_label']);?>" alt="">-->
                 <?php if(empty($value['store_label'])) { ?>
             <img src="<?php echo UPLOAD_SITE_URL.'/shop/common/default_store_logo.gif'?>">
@@ -141,11 +141,7 @@
     <?php }?>
         
     </div>
-<div class="inner">
-        <div class="pagenav">
-            <?php echo $output['show_page'];?>
-        </div>
-    </div>
+
     <!---->
     
 </div>

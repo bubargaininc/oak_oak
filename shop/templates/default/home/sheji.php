@@ -82,7 +82,7 @@
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price'];?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($value, 1280);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($value, 1280);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo empty($value['goods_jingle'])?"没有填写":$value['goods_jingle']?></p>
                 <div class="meta">

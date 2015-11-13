@@ -80,7 +80,6 @@
          </div>
 
 
-
             </div>
                 <div class="info-box "><span class="info-t">市场价：</span><span class="de"><?php echo $lang['currency'].$output['goods']['goods_marketprice'];?></span></div>
                 <div class="info-box info-price"><span class="info-t">价格：</span><span class="nowrmb"><i class="rmb"><?php echo $lang['currency']?></i>
@@ -353,13 +352,6 @@
         
     </div>
 
-
-<style type="text/css">
-  #goodseval .pr{
-    display: none;
-
-  }
-</style>
         <!--attributes-list-->
 
 
@@ -422,7 +414,7 @@
             <div class="price">
                 <div class="original"><?php echo $lang['currency'];?><?php echo $goods_commend['goods_price'];?></div>
             </div>
-            <a href="<?php echo urlShop('goods', 'index', array('goods_id' => $goods_commend['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($goods_commend, 240);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods', 'index', array('goods_id' => $goods_commend['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($goods_commend, 240);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo $goods_commend['goods_jingle']?> </p>
                 <div class="meta">

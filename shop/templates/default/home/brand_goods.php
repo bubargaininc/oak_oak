@@ -31,6 +31,7 @@
             </div><!--ds-banner-->
             <div class="minfo">
                 <div class="">
+
                     <h3 class="title">品牌简介: <span class="fr m-flag">
                             <img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$output['brand_lise']['brand_images']);?>" alt="">
                     </span>
@@ -48,13 +49,9 @@
                         <div class="sharebox">
                             <div>分享到：</div>
                             <div class="sharebtn">
-
-                            <div class="bdsharebuttonbox">
-<a href="#" class="ae-share-sina" data-cmd="tsina"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-sina.png" alt="">微博</a>
-<a href="#" class="ae-share-qq" data-cmd="tqq"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-qq.png" alt="">QQ</a>
-<a href="#" class="ae-share-weixin" data-cmd="weixin"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-weixin.png" alt="">微信</a>
-</div>
-
+                                <a href="" class="ae-share-qq"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-qq.png" alt="">QQ</a>
+                                <a href="" class="ae-share-sina"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-sina.png" alt="">微博</a>
+                                <a href="" class="ae-share-weixin"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-share-weixin.png" alt="">微信</a>
                             </div>
                         </div>
                     </div>
@@ -64,27 +61,14 @@
             </div>
         </div><!--mstore-->
 
-
-<style>
-  .bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
-    background-image:none;
-    padding-left:0px;
-    line-height:40px;
-  }
-</style>
-
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-
-
         <?php 
          if(!empty($output['goods_list']) && is_array($output['goods_list'])){?>
   <?php foreach($output['goods_list'] as $value){?>
         <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['store_id']));?>" target="_blank"><?php echo $value['goods_name'];?></a></h1>
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['store_id']));?>"><?php echo $value['goods_name'];?></a></h1>
                 <div class="meta">
-                    <div class="tc"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['store_name']?></a></div>
+                    <div class="tc"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['store_name']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
                 </div>
             </div>
@@ -92,7 +76,7 @@
                 <div class="original"><?php echo $lang['currency'].$value['goods_price'];?></div>
             </div>
 
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($value, 233);?>" target="_blank" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($value, 233);?>" alt=""></a>
 
                 <div class="ftr">
                 <p class="info"><?php echo $value['goods_jingle']?> </p>

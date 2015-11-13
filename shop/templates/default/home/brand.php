@@ -13,7 +13,7 @@
                          foreach ($output['count'] as $key => $value){?>
                         <li data-flag="<?php echo $value['count_name']?>">
 
-                        <a href="<?php echo replaceParam(array('count' => $value['count_id']));?>" target="_blank"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['count_images']);?>" alt="">
+                        <a href="<?php echo replaceParam(array('count' => $value['count_id']));?>"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['count_images']);?>" alt="">
                         <span><?php echo $value['count_name']?></span>
                         </a>
                         </li>
@@ -55,16 +55,13 @@
  <?php  foreach($output['brand_r'] as $key=>$brand_r){?>
  <div class="product pdc_scd">
             <div class="hdr">
-                <h1 class="tit tc">
-                <a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>" target="_blank">
-                   <?php echo $brand_r['brand_name'];?>
-                </a></h1>
+                <h1 class="tit tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>"><?php echo $brand_r['brand_name'];?></a></h1>
                 <div class="meta">
-                    <div class="tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>" target="_blank"></a></div>
+                    <div class="tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>"></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$brand_r['brand_count']);?>" alt=""></em>
                 </div>
             </div>
-            <a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>" class="cover hover" target="_blank"><img src="<?php echo brandImage($brand_r['brand_pic']);?>" target="_blank"></a>
+            <a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand_r['brand_id']));?>" class="cover hover"><img src="<?php echo brandImage($brand_r['brand_pic']);?>" alt=""></a>
         </div>
         <?php }?>
 
@@ -124,7 +121,7 @@
         <?php foreach($brand_c as $key=>$brand){?>
         <li>
           <dl>
-            <dt><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand['brand_id']));?>" target="_blank"><img src="<?php echo brandImage($brand['brand_pic']);?>" alt="<?php echo $brand['brand_name'];?>"/></a></dt>
+            <dt><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand['brand_id']));?>"><img src="<?php echo brandImage($brand['brand_pic']);?>" alt="<?php echo $brand['brand_name'];?>"/></a></dt>
             <dd><a href="<?php echo urlShop('brand', 'list', array('brand'=>$brand['brand_id']));?>"><?php echo $brand['brand_name'];?></a></dd>
           </dl>
         </li>

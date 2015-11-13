@@ -386,9 +386,6 @@ a:active {}
 .pagenav .ins:before{content: "○";position: absolute;top: -10px;left: 50%;margin-left: -5px;color: #ccc;font-size: 18px;line-height: 8px;}
 .pagenav .ins.on:before{content: "●";color: #6fc5d3;}
 
-.pagenav .demo{
-  padding: 0 5px;
-}
 
 
 /*MICROSHOP_STORES*/
@@ -865,7 +862,7 @@ a:active {}
 .db{display: block;}
 .mt28{margin-top: 28px;}
 .bd2{border: 2px solid #6fc5d3;box-sizing: border-box;}
-.bdtb2{border: 2px solid #6fc5d3;border-left: none;border-right: none;text-align: center;}
+.bdtb2{border: 2px solid #6fc5d3;border-left: none;border-right: none;}
 .htit{position: relative;}
 .htit .tit{position: absolute;left: 0;top: 0;color: #fff;background: #6fc5d3;font-weight: 600;width: 140px;height: 32px;font-size: 18px;text-align: center;line-height: 32px;}
 .attributes-list .hd{box-sizing: border-box;border: 1px solid #bbb5b3;border-bottom: none;width: 702px;}
@@ -929,7 +926,7 @@ a:active {}
 .minfo .m-flag img{width: 28px;height: 17px;position: relative;right: 14px;}
 
 /*DESIGNER_STORE*/
-.designer-mstore{width: 470px;height: 789px;padding: 14px;margin: 14px;float: left;}
+.designer-mstore{width: 470px;height: 783px;padding: 14px;margin: 14px;float: left;}
 
 .ds-banner{ width:470px; height:238px;position:relative;  overflow:hidden;margin-bottom: 14px; }
 .ds-banner .bd{width: 100%;height: 100%;}

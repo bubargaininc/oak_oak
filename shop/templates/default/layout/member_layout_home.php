@@ -134,7 +134,7 @@ $bgtime=(datedif($begin, $end, 3000));
                 <div class="trust-logo"><b class="fz16">信任的牌子：
                 </b>
 
-                   <a>暂无记录</a>
+                   <a>暂无购买记录</a>
                 <a href="" style="display:none"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/order/ae-logo-hipp.png" alt=""></a>
         
                 </div>
@@ -167,7 +167,8 @@ $bgtime=(datedif($begin, $end, 3000));
                 <div class="hdr">
                     <h1 class="tit"><a href="">德国喜宝有机免敏胡萝卜泥</a></h1>
                     <div class="meta">
-                    
+                        <div><a href="">BABYBIO</a></div>
+                        <em class="flag"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-flag.png" alt=""></em>
                     </div>
                 </div>
                 <div class="price">
@@ -177,7 +178,7 @@ $bgtime=(datedif($begin, $end, 3000));
                 <div class="ftr">
                     <p class="info">采用全天然有机的食品原料精心加工而成，清新无污染，健康有保证；...    </p>
                     <div class="meta">
-                        <span class="like">288<i class="ae-like"></i></span>
+                        <span class="like">288<i class="ae-like"></i></span> | 
                         <a class="listing" href=""><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-listing.png" alt=""></a>
                     </div>
                 </div>

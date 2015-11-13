@@ -6,7 +6,7 @@
     <div class="floor floorOne inner clearfix">
         <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$output['news_first']['goods_id']));?>" target="_blank">
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$output['news_first']['goods_id']));?>">
                 <?php echo $output['news_first']['goods_name']?></a></h1>
                 <div class="meta">
                     <div><a><?php echo $output['news_first']['brand_name']?></a></div>
@@ -16,7 +16,7 @@
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$output['news_first']['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$output['news_first']['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($output['news_first']['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$output['news_first']['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($output['news_first']['goods_image'], 233);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo $lang['currency'].$output['news_first']['goods_price']?> </p>
                 <div class="meta">
@@ -34,7 +34,7 @@
         $xinpinghui=unserialize($output['adv']['0']['adv_content']);
         ?>
         <img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_ADV.'/'.$xinpinghui['adv_pic']);?>" alt="">
-        <a class="hover f-banner-btn" target="_blank" href="
+        <a class="hover f-banner-btn" href="
         <?php echo $xinpinghui['adv_pic_url'];?>
         ">进入专场</a>
         </div>
@@ -43,16 +43,16 @@
                  foreach ($output['news'] as $key => $value):?>
                             <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['goods_name']?></a></h1>
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['goods_name']?></a></h1>
                 <div class="meta">
-                    <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['store_name']?></a></div>
+                    <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['store_name']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
                 </div>
             </div>
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"> <?php echo empty($value['goods_jingle'])?"未有描述":$value['goods_jingle']?></p>
                 <div class="meta">
@@ -73,14 +73,14 @@
         $ouzhou=unserialize($output['adv']['1']['adv_content']);
         ?>
         <img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_ADV.'/'.$ouzhou['adv_pic']);?>" alt="">
-        <a class="hover f-banner-btn" target="_blank" href="
+        <a class="hover f-banner-btn" href="
         <?php echo $ouzhou['adv_pic_url'];?>
         ">进入专场</a>
         </div>
                   <?php foreach ($output['chaoliu'] as $key => $value):?>
                             <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['goods_name']?></a></h1>
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['goods_name']?></a></h1>
                 <div class="meta">
                     <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['store_name']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
@@ -89,7 +89,7 @@
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo empty($value['goods_jingle'])?"未有描述":$value['goods_jingle']?></p>
                 <div class="meta">
@@ -112,7 +112,7 @@
         $zuida=unserialize($output['adv']['2']['adv_content']);
         ?>
         <img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_ADV.'/'.$zuida['adv_pic']);?>" alt="">
-        <a class="hover f-banner-btn" target="_blank" href="
+        <a class="hover f-banner-btn" href="
         <?php echo $zuida['adv_pic_url'];?>
         ">进入专场</a>
         </div>
@@ -121,13 +121,13 @@
         foreach ($output['svbrand'] as $key => $value):?>
         <div class="product pdc_scd">
             <div class="hdr">
-                <h1 class="tit tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>" target="_blank"><?php echo $value['brand_name']?></a></h1>
+                <h1 class="tit tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>"><?php echo $value['brand_name']?></a></h1>
                 <div class="meta">
-                    <div class="tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>" target="_blank"><?php echo $value['brand_class']?></a></div>
+                    <div class="tc"><a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>"><?php echo $value['brand_class']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
                 </div>
             </div>
-            <a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>" class="cover hover" target="_blank">
+            <a href="<?php echo urlShop('brand', 'list', array('brand'=>$value['brand_id']));?>" class="cover hover">
             <img src="<?php echo brandImage($value['brand_pic']);?>" alt=""></a>
         </div>
         <?php endforeach;?>   
@@ -142,7 +142,7 @@
         $gerendaigou=unserialize($output['adv']['3']['adv_content']);
         ?>
         <img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_ADV.'/'.$gerendaigou['adv_pic']);?>" alt="">
-        <a class="hover f-banner-btn" target="_blank" href="
+        <a class="hover f-banner-btn" href="
         <?php echo $gerendaigou['adv_pic_url'];?>
         ">进入专场</a>
         </div>
@@ -151,16 +151,16 @@
                foreach ($output['sheji'] as $key => $value):?>
                             <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['goods_name']?></a></h1>
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['goods_name']?></a></h1>
                 <div class="meta">
-                    <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['store_name']?></a></div>
+                    <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['store_name']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
                 </div>
             </div>
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo empty($value['goods_jingle'])?"未有描述":$value['goods_jingle']?></p>
                 <div class="meta">
@@ -178,20 +178,22 @@
         
     </div><!--floorFour-->
     <div class="floor floorFive inner">
-        <div class="f-banner"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-floor-five.png" alt=""><a class="hover f-banner-btn" href="index.php?act=category&op=daigou" target="_blank">进入专场</a></div>
+        <div class="f-banner"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-floor-five.png" alt=""><a class="hover f-banner-btn" href="index.php?act=category&op=daigou">进入专场</a></div>
         
          <?php 
          //代沟
          foreach ($output['daigou'] as $key => $value):?>
         <div class="product pdc_scd">
             <div class="hdr">
-                <h1 class="tit tc"><a href="<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>" target="_blank"><?php echo $value['store_name']?></a></h1>
+                <h1 class="tit tc"><a href="
+<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>
+            "><?php echo $value['store_name']?></a></h1>
                 <div class="meta">
                     <div class="tc"><a href=""><?php echo $value['store_recommend']?>粉丝</a></div>
                     <em class="flag" style="display:none"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/ae-flag.png" alt=""></em>
                 </div>
             </div>
-            <a href="<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>" class="cover hover" target="_blank">
+            <a href="<?php echo urlShop('show_store','index',array('store_id'=>$value['store_id']));?>" class="cover hover">
             <!--<img src="<?php echo getStoreLogo($value['store_label']);?>" alt="">-->
                 <?php if(empty($value['store_label'])) { ?>
             <img src="<?php echo UPLOAD_SITE_URL.'/shop/common/default_store_logo.gif'?>">

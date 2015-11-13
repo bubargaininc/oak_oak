@@ -49,8 +49,9 @@
             </div><!--todaysay-->
             <div class="saylist ">
                 <ul class="clearfix">
-               <?php 
-               foreach ($output['taolun'] as $key => $value){
+               <?php foreach ($output['taolun'] as $key => $value){
+
+
                 ?> 
                 <li>
                     <div class="saylist-date">
@@ -69,129 +70,21 @@
                             </div>
                         </div>
 
-                        <div class="saycommetform">
-                            <h5 class="tits">评论<span class="ml20"><?php echo $value['ping_num']?></span></h5>
-                                          <?php 
-                    if($output['member_info']['member_id']==$value['user_id']){
-                    ?>
-                            <h5 class="tits" style="float:right">
-               
-                    <a href="javascript:void(0)"  id="<?php echo $value['id']?>" onclick="javascript:test(this);"  class="orangetxt fr mr28">删除</a>
-                    
-                            </h5>
-                            <?php }?>
-                            <div class="saycommetformcont">
-                                <a href="" class="avatar"><img src="<?php echo getMemberAvatar($value['mem_name']['member_avatar']); ?>" alt=""></a>
-                                <form>
-                                    <textarea name="" id="textarea" class="txtipt" cols="30" rows="1"></textarea>
-                                    <div class="altname">回复<span>@<?php echo $value['mem_name']['member_name']?></span></div>
-                                    
-                                    <div class="z clearfix">
-                                        <input type="hidden" name="pid" class="pid" value="<?php echo $value['id']?>"> 
-                                        <input type="hidden" name="smber" class="smber" value="<?php echo $value['user_id']?>"> 
-                                        <input type="button"  class="btn-commet fr tijiao" value="提交">
-                                    </div>
-                             
-                                </form>
-                                <?php 
-                                if(!empty($value['ping'])){?>
-                                <ol class="clearfix saycommetlist" style="margin-top:10px;">
-                                <?php
-                                  
-                                 foreach ($value['ping'] as $key => $svalue) {?>
-                                <li >
-                                    <a href="" class="avatar"><img src="<?php echo getMemberAvatar($svalue['mem_name']['member_avatar']); ?>" alt=""></a>
-                                    <div class="sclinfo" style="width:auto">
-                                        <p><span class="name"><?php echo $svalue['mem_name']['member_name']?>:</span><?php echo $svalue['text_name']?></p>
-                                        <div class="fmeta"><span><?php echo $svalue['mem_time']?>前</span><span class="fr"> <a href="javascript:void(0)"  id="<?php echo $value['id']?>" onclick="javascript:test(this);"  class="orangetxt">删除</a></span></div>
-                                    </div>
-                                </li>
-                                <?php }?>
-                                <div class="morelist tc" style="display:none"><a href="javascript:;">点击查看更多评论 &gt;</a> </div>
-                            </ol>
-                             <?php }?>    
-                            </div>
-
-                        </div>
-
                     </div>
-
-
                 </li>
                <?php }?>
                 </ul>
             </div><!--todaysay-->
             <div class="order-pagenavi">
-               <?php echo $output['show_page'];?>
+                <span>上一页</span>
+                <span class="all"><em class="orangetxt">1</em>/<em>1</em></span>
+                <a href="">下一页</a>
             </div>
         </div>
 
 
 
 <script type="text/javascript">
-    function test(obj){ 
-        var id=obj.id;
-        if(id!==''){
-            if(confirm("确定要删除这条评论嘛")){
-                      $.ajax({  
-            type: "post",
-            url:'<?php echo urlShop('brand', 'taolundel');?>',  
-            dataType : 'json',
-            data:{id:id},  
-            success : function (data, status) {
-                if(data == '1') {
-                       alert("删除成功");
-                       window.location.reload();
-                    }else{
-                       alert("删除失败");
-                    }
-                }  
-            }); 
-            }
-        } 
-} 
-
-$(".tijiao").click(function(){
-  var puid=$(this).parent().find('.smber').val();
-  var text_name=$(this).parent().parent().parent().find('.txtipt').val();
-var se="<?php echo $_SESSION['is_login'];?>";
-var uid="<?php echo $output['member_info']['member_id'];?>";
-var pid=$(this).parent().parent().find('.pid').val();
-if(se!=='1'){
-  alert('请先登录');
-  return false;
-}
- if(puid==uid){
-    alert('不可回复自己发布的评论');
-    return false;
-  }
-
-
-if(text_name==''){
-  alert("请填写内容");
-  return false;
-}
-var goods_id="<?php $_GET['id'];?>";
-
-       $.ajax({  
-            type: "post",
-            url:'<?php echo urlShop('home', 'taolunad');?>',  
-            dataType : 'json',
-            data:{text_name:text_name,goods_id:goods_id,pid:pid},  
-            success : function (data, status) {
-            if(data == '1') {
-                   alert("回复成功");
-                   window.location.reload();
-                }else{
-                   alert("回复失败");
-                }
-            }  
-
-        }); 
-
-//alert(dd);
-return false;
-});
   $('#ddd').click(function(){ 
 var se="<?php echo $_SESSION['is_login'];?>";
 var goods_id="<?php $_GET['id'];?>";
@@ -218,10 +111,10 @@ if(img_1==''){
             data:{text_name:text_name,goods_id,goods_id,img_1:img_1,img_2:img_2},  
             success : function (data, status) {
             if(data == '1') {
-                   alert("发布成功");
+                   alert("上传成功");
                    window.location.reload();
                 }else{
-                   alert("发布失败");
+                   alert("上传失败");
                 }
             }  
 

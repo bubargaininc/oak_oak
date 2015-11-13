@@ -102,7 +102,7 @@ $bgtime=(datedif($begin, $end, 3000));
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
             <div class="ftr">
                 <p class="info"><?php echo empty($value['goods_jingle'])?"未有描述":$value['goods_jingle']?></p>
                 <div class="meta">
@@ -131,14 +131,7 @@ $bgtime=(datedif($begin, $end, 3000));
                     <a class="cover"><img src="<?php echo cthumb($value['img_1'], 240);?>" alt=""></a>
                     <a class="cover"><img src="<?php echo cthumb($value['img_2'], 240);?>" alt=""></a>
                     <div class="commetcos"><a href="" class="avatar"><img src="<?php echo getMemberAvatar($value['mem_name']['member_avatar']); ?>" alt=""><div class=""><?php echo $value['mem_name']['member_name']?></div></a><?php echo $value['text_name'];?></div>
-                    <?php 
-                    if($output['member_info']['member_id']==$value['user_id']){
-                    ?>
-                    <a href="javascript:void(0)"  id="<?php echo $value['id']?>" onclick="javascript:test(this);"  class="orangetxt fr mr28">删除</a>
-                  
-                    <?php }else{ ?>
-                   <a href="javascript:void(0)" id="huifu" sid="<?php echo $value['user_id']?>"  value="<?php echo $value['mem_name']['member_name']?>"   class="orangetxt fr mr28">回复</a>
-                    <?php }?>
+                    <a  style="display:none" href="" class="orangetxt fr mr28">回复</a>
                 </li>
                 <?php }?>
    <?php }else{?>
@@ -147,9 +140,9 @@ $bgtime=(datedif($begin, $end, 3000));
             </ul>
             
             <div class="order-pagenavi">
-              <?php if(!empty($output['taolun'] )){?>
-             <?php echo $output['show_page'];?>
-             <?php }?>
+                <span>上一页</span>
+                <span class="all"><em class="bluetxt">1</em>/<em>1</em></span>
+                <a href="">下一页</a>
             </div>
             <div class="commetform">
  
@@ -166,54 +159,10 @@ $bgtime=(datedif($begin, $end, 3000));
 
 
 
-<script type="text/javascript">
-    function test(obj){ 
-        var id=obj.id;
-        if(id!==''){
-            if(confirm("确定要删除这条评论嘛")){
-                      $.ajax({  
-            type: "post",
-            url:'<?php echo urlShop('brand', 'taolundel');?>',  
-            dataType : 'json',
-            data:{id:id},  
-            success : function (data, status) {
-                if(data == '1') {
-                       alert("删除成功");
-                       window.location.reload();
-                    }else{
-                       alert("删除失败");
-                    }
-                }  
-            }); 
-            }
-        } 
-} 
-
-
-    $("#huifu").toggle(
-     function(){
-     var val=$(this).attr("value");
-     var sid=$(this).attr("sid");
-     $(this).text('取消回复');
-     $("#hui").text('@'+val);
-     $("#d_uid").text(sid);
-     },
-     function(){
-     $(this).text('回复')
-     $("#hui").text('');
-     $("#d_uid").text('0');
-     }
-    )
-
-</script>
-
                 <form action="<?php echo urlShop('brand','taolunad')?>" method="post">
                 <input type="hidden" name="goods_id">
                     <textarea name="text_name" id="text_name" class="txtipt" cols="30" rows="1"></textarea>
-                      <div class="altname">
-                      <span id="hui"></span>
-                      <div id="d_uid" style="display:none">0</div>
-                      </div>
+                    <div class="altname">| <span></span></div>
                     <div class="z clearfix">
                         <div class="fl posr">
                             <a class="uploadimg ouu ouu-uploadimg" href="javascript:;"></a>
@@ -275,9 +224,9 @@ $bgtime=(datedif($begin, $end, 3000));
              <?php
           foreach($output['hot_collect'] as $val){?>
                 <li>
-                    <a href="<?php echo urlShop('goods','index',array('goods_id'=>$val['goods_id']));?>" class="cover"><img src="<?php echo thumb($val, 240);?>"></a>
+                    <a href="" class="cover"><img src="<?php echo thumb($val, 240);?>"></a>
                     <div class="commetuser">
-                        <a class="avatar"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/f-logo.png" alt=""></a>
+                        <a class="avatar"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/f-logo.png" alt=""><div class="">VALANDO</div></a>
                         <div class="commetcon"><p><?php echo $val['goods_name']?></p></div>
                     </div>
                 </li>
@@ -308,7 +257,7 @@ $bgtime=(datedif($begin, $end, 3000));
             <div class="price">
                 <div class="original"><?php echo $val['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods', 'index', array('goods_id'=>$val['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods', 'index', array('goods_id'=>$val['goods_id']));?>" class="cover hover"><img src="<?php echo thumb($val, 240);?>" alt=""></a>
             <div class="ftr" style="display: none;">
                 <p class="info"><?php echo $val['goods_jingle']?></p>
                 <div class="meta">
@@ -344,7 +293,6 @@ $bgtime=(datedif($begin, $end, 3000));
   $('#ddd').click(function(){ 
 var se="<?php echo $_SESSION['is_login'];?>";
 var goods_id="<?php echo  $_GET['goods_id'];?>";
-var pid=$("#d_uid").html();
 var type='3';
 //type:1品牌，2商店，3产品，4个人主页
 if(se!=='1'){
@@ -355,7 +303,7 @@ var text_name=$('#text_name').val();
 var img_1=$('#img_1').val();
 var img_2=$('#img_2').val();
 if(text_name==''){
-    alert("请填写评论");
+    alert("请填写留言");
     return false;
 }
 if(img_1==''){
@@ -370,7 +318,7 @@ if(img_2==''){
             type: "post",
             url:'<?php echo urlShop('brand', 'taolunad');?>',  
             dataType : 'json',
-            data:{text_name:text_name,goods_id:goods_id,pid:pid,img_1:img_1,img_2:img_2,type:type},  
+            data:{text_name:text_name,goods_id,goods_id,img_1:img_1,img_2:img_2,type:type},  
             success : function (data, status) {
             if(data == '1') {
                    alert("上传成功");
