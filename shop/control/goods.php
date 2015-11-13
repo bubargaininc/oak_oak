@@ -99,7 +99,10 @@ class goodsControl extends BaseGoodsControl {
                 }
             }
         }
-
+      if($goods_info){
+        $sband=Model('goods_common')->where(array('goods_commonid'=>$goods_info['goods_commonid']))->limit('0')->select();
+        $goods_info['goods_ouprice']=$sband['0']['goods_ouprice'];
+      }
         Tpl::output('goods', $goods_info);
 
         // 关联版式
@@ -170,8 +173,7 @@ class goodsControl extends BaseGoodsControl {
 
 
         Tpl::output('goods_commend',$goods_commend_list);
-        
-        
+
         // 当前位置导航
         $nav_link_list = Model('goods_class')->getGoodsClassNav($goods_info['gc_id'], 0);
         $nav_link_list[] = array('title' => $goods_info['goods_name']);
@@ -366,14 +368,14 @@ class goodsControl extends BaseGoodsControl {
         
         $swhere=array();
         $page    = new Page();
-        $page->setEachNum(1);
-        $page->setStyle('admin');
+        $page->setEachNum(5);
         $swhere['goods_id']=$_GET['goods_id'];
         $swhere['type']='3';
-        $taolun=Model('taolun')->getFavoritesList($swhere,'*',$page);
+        $taolun=Model('taolun')->getshou($swhere,$page);
+        if($taolun){
         foreach ($taolun as $key => $value) {
               $taolun[$key]['mem_name']=Model('member')->getMemberInfo(array('member_id'=>$value['user_id']),'member_avatar,member_name');
-        }
+        }}
         
 
         Tpl::output('hot_collect',$hot_collect);  

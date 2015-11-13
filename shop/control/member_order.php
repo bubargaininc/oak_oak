@@ -201,6 +201,7 @@ class member_orderControl extends BaseMemberControl {
      *
      */
     public function show_orderOp() {
+
         $order_id = intval($_GET['order_id']);
         if ($order_id <= 0) {
             showMessage(Language::get('member_order_none_exist'),'','html','error');
@@ -238,7 +239,7 @@ class member_orderControl extends BaseMemberControl {
 		//退款信息
 		$refund_list = $model_refund->getRefundList($condition);
 		Tpl::output('refund_list',$refund_list);
-		Tpl::showpage('member_order.show');
+		Tpl::showpage('member_order.show','member_order_layout');
     }
 
 	/**

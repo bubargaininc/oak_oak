@@ -92,7 +92,7 @@
         foreach ($output['goods_list'] as $key => $value):?>
             <div class="product">
             <div class="hdr">
-                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['goods_name']?></a></h1>
+                <h1 class="tit"><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" target="_blank"><?php echo $value['goods_name']?></a></h1>
                 <div class="meta">
                     <div><a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>"><?php echo $value['store_name']?></a></div>
                     <em class="flag"><img src="<?php echo UPLOAD_SITE_URL.'/'.(ATTACH_COMMON.DS.$value['goods_count']);?>" alt=""></em>
@@ -101,7 +101,7 @@
             <div class="price">
                 <div class="original"><?php echo $lang['currency'].$value['goods_price']?></div>
             </div>
-            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover"><img src="<?php echo cthumb($value['goods_image'], 233);?>" alt=""></a>
+            <a href="<?php echo urlShop('goods','index',array('goods_id'=>$value['goods_id']));?>" class="cover hover" target="_blank"><img src="<?php echo cthumb($value['goods_image'], 233);?>"></a>
             <div class="ftr">
                 <p class="info"> <?php echo empty($value['goods_jingle'])?"未有描述":$value['goods_jingle']?></p>
                 <div class="meta">
@@ -121,8 +121,8 @@
         <div class="f-banner f-banner-four"><?php echo loadadv(374);?></div>
         <?php } ?>
 
-        <?php if($key=='30'){?>
-        <div class="f-banner f-banner-one"><?php echo loadadv(375);?><a class="hover f-banner-btn" href="">进入专场</a></div>
+        <?php if($key=='31'){?>
+        <div class="f-banner f-banner-one"><?php echo loadadv(375);?></div>
         <?php } ?>  
  
     <?php endforeach;?>

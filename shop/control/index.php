@@ -34,7 +34,7 @@ class indexControl extends BaseHomeControl{
 		Model('seo')->type('index')->show();
 
        //新品汇
-		$news=model()->table('goods,store')->join('left')->on('goods.store_id=store.store_id')->where(array('grade_id'=>'3'))->limit('6')->select();
+		$news=model()->table('goods,store')->join('left')->on('goods.store_id=store.store_id')->where(array('grade_id'=>'3'))->order('goods.goods_id desc')->limit('6')->select();
 	 /**获取品牌国籍*/
         foreach ($news as $key => $value) {
         	  $news[$key]['goods_count']=Model('count')->getCount($value['goods_count']);
@@ -43,7 +43,7 @@ class indexControl extends BaseHomeControl{
 		$news_first=array_shift($news);
 
     //欧洲潮流
-		$chaoliu=model()->table('goods,store')->join('left')->on('goods.store_id=store.store_id')->where(array('grade_id'=>'3'))->limit('6')->select();
+		$chaoliu=model()->table('goods,store')->join('left')->on('goods.store_id=store.store_id')->where(array('grade_id'=>'3'))->order('goods.goods_id desc')->limit('6')->select();
 	 /**获取品牌国籍*/
         foreach ($chaoliu as $key => $value) {
         	  $chaoliu[$key]['brand_name']=Model('brand')->getOneBrand_name($value['brand_id']);
@@ -55,7 +55,7 @@ class indexControl extends BaseHomeControl{
 		
 		TpL::output('chaoliu',$chaoliu);
 		//欧洲潮 搜索商店
-        $shangdian=model()->table('store')->limit('6');
+        $shangdian=model()->table('store')->order('store_id desc')->limit('6');
 	 	$model = Model();
 		//安心农场
 		//设计师作品
@@ -72,7 +72,7 @@ TpL::output('sheji',$sheji);
 		//个人代购
 
      //$daigou=$model->table('goods,store')->join('left')->on('goods.store_id=store.store_id')->where(array('grade_id'=>'2'))->limit('6')->select();
-$daigou=$model->table('store')->where(array('grade_id'=>'2','store_state'=>'1'))->limit('6')->select();
+$daigou=$model->table('store')->where(array('grade_id'=>'2','store_state'=>'1'))->order('store_id desc')->limit('6')->select();
 	TpL::output('daigou',$daigou);
 
 //SELECT * FROM `shopnc_goods` as g LEFT JOIN `shopnc_store` as u on g.store_id=u.store_id where u.grade_id=2;
@@ -90,7 +90,7 @@ $daigou=$model->table('store')->where(array('grade_id'=>'2','store_state'=>'1'))
       	$brand = $sband->table('brand')->where(array('brand_apply'=>'1','class_id'=>'959'))->limit(12)->order('brand_recommend desc,brand_sort asc')->select();
       	TpL::output('brand',$brand);
 
-      		$svbrand = $sband->table('brand')->where(array('brand_apply'=>'1','class_id'=>'959'))->limit(6)->order('brand_recommend desc,brand_sort asc')->select();
+      		$svbrand = $sband->table('brand')->where(array('brand_apply'=>'1','class_id'=>'959'))->limit(6)->order('brand_id desc,brand_recommend desc,brand_sort asc')->select();
 	 /**获取品牌国籍*/
         foreach ($svbrand as $key => $value) {
         	  $svbrand[$key]['goods_count']=Model('count')->getCount($value['brand_count']);

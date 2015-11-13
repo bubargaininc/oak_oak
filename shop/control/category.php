@@ -612,6 +612,7 @@ if($s_type=='1'){
                 $goods_list = $model_goods->getGoodsListByColorDistinct($condition, $fields, $order, self::PAGESIZE);
             }
 
+
             Tpl::output('show_page1', $model_goods->showpage(4));
             Tpl::output('show_page', $model_goods->showpage(6));
 
@@ -788,10 +789,19 @@ if($s_type=='1'){
                 if (isset($data_attr['goodsid_array'])){
                     $condition['goods_id'] = array('in', $data_attr['goodsid_array']);
                 }
-               $store_list = $model_goods->getStoreList($condition,null, $order,  $fields,  self::PAGESIZE, null, false);
+               $store_list = $model_goods->getstoreList($condition,$page);
+
+                        $page   = new Page();
+                $page->setEachNum(16);
+                $page->setStyle('admin');
+                
+               $store_list = $model_goods->getdianpuList($condition,$page);
+
+            
             }
 
-            Tpl::output('show_page1', $model_goods->showpage(4));
+        //$taolun=Model('taolun')->getshou($swhere,$page);
+        Tpl::output('show_page', $page->show(6));
 
         }
         Tpl::output('class_name',  @$data_attr['gc_name']);

@@ -326,15 +326,32 @@ class homeControl extends BaseMemberControl {
      public function chengOp(){
 		$model_member	= Model('member');
 		$member_info	= $model_member->where(array('member_id'=>trim($_SESSION['member_id'])))->find();
+    	$swhere['type']='3';
+    	$swhere['pid']='0';
+    	//$swhere['user_id']=$_SESSION['member_id'];
+		$page	= new Page();
+		$page->setEachNum(5);
+		$page->setStyle('admin');
 
-    $swhere['type']='3';
-    $swhere['user_id']=$_SESSION['member_id'];
-        $taolun=Model('taolun')->getFavoritesList($swhere,'*',$page);
+        $taolun=Model('taolun')->getshou($swhere,$page);
         foreach ($taolun as $key => $value) {
               $taolun[$key]['mem_name']=Model('member')->getMemberInfo(array('member_id'=>$value['user_id']),'member_avatar,member_name');
+              $taolun[$key]['ping_num']=count(Model('taolun')->getshou(array('pid'=>$value['id'],'type'=>'3')));
+              $taolun[$key]['ping']=Model('taolun')->getshou(array('pid'=>$value['id'],'type'=>'3'));
+             if($taolun[$key]['ping']){
+             	foreach ($taolun[$key]['ping'] as $skey => $svalue) {
+             		$taolun[$key]['ping'][$skey]['mem_name']=Model('member')->getMemberInfo(array('member_id'=>$value['user_id']),'member_avatar,member_name');
+		            //计算时间;
+		            $past = $value['add_time']; // Some timestamp in the past
+					$now  = time();     // Current timestamp
+					$diff = $now - $past;
+					$taolun[$key]['ping'][$skey]['mem_time']=Model('taolun')->time2Units($diff);
+             	}
+             }   
         }
-      
-TpL::output('taolun',$taolun);
+
+		TpL::output('taolun',$taolun);
+		Tpl::output('show_page',$page->show(6));
      	Tpl::setLayout('member_layout_home');
      	TpL::output('index','cheng');
      	TpL::output('member_info',$member_info);
@@ -345,6 +362,11 @@ TpL::output('taolun',$taolun);
 
 public function taolunadOp(){
         $insert_arr = array();
+        if(empty($_POST['pid'])){
+        $insert_arr['pid'] = '0';	
+        }else{
+        	$insert_arr['pid'] = $_POST['pid'];
+        }
         $insert_arr['user_id'] = $_SESSION['member_id'];
         $insert_arr['goods_id'] =$_POST['goods_id'];
         $insert_arr['img_1'] = $_POST['img_1'];

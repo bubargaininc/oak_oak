@@ -137,7 +137,7 @@ $bgtime=(datedif($begin, $end, 3000));
                 </span></div>
                 <div class="trust-logo"><b class="fz16">信任的牌子：
                 </b>
-                  <a>暂无购买记录</a>
+                  <a>暂无记录</a>
                 <a href="" style="display:none"><img src="<?php echo SHOP_TEMPLATES_URL;?>/img/order/ae-logo-hipp.png" alt=""></a>
         
                 </div>

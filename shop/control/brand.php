@@ -40,7 +40,7 @@ class brandControl extends BaseHomeControl {
             loadfunc('search');
 
         //获取国家
-        $count= Model()->table('count')->where()->order('count_id asc')->select();
+        $count= Model()->table('count')->order('count_id asc')->select();
         $page = new Page();
         $page->setEachNum(16);
         //获得品牌列表
@@ -51,7 +51,7 @@ class brandControl extends BaseHomeControl {
         $where['brand_apply']=1;
          if (intval($_GET['count']) > 0) {
         $where['brand_count']=$_GET['count'];
-    }
+        }
         $brand_c_list=Model('brand')->getBrandList($where,$page);   
        
         /**获取品牌国籍*/
@@ -120,6 +120,21 @@ class brandControl extends BaseHomeControl {
 	    return array('brand_listnew' => $brand_listnew, 'brand_class' => $brand_class, 'brand_r_list' => $brand_r_list);
 	}
 
+
+    /**删除讨论*/
+    public function taolundelop(){
+       $del=Model('taolun')->where(array('id'=>$_POST['id']))->delete();
+       if($del){
+        echo "1";
+       }else{
+        echo "2";
+       }
+    }
+
+    public function hui(){
+        echo "11";
+    }
+
     /**
     *讨论
     **/	
@@ -150,17 +165,17 @@ Tpl::output('brand_lise',$brand_lise);
 
         $swhere=array();
         $page    = new Page();
-        $page->setEachNum(1);
+        $page->setEachNum(5);
         $page->setStyle('admin');
 
         $swhere['goods_id']=$_GET['id'];
-        $taolun=Model('taolun')->getFavoritesList($swhere,'*',$page);
+      $taolun=Model('taolun')->getshou($swhere,$page);
+      if($taolun){
         foreach ($taolun as $key => $value) {
               $taolun[$key]['mem_name']=Model('member')->getMemberInfo(array('member_id'=>$value['user_id']),'member_avatar,member_name');
         }
-        
-
-
+    }
+    
         Tpl::output('hot_collect',$hot_collect);  
         Tpl::output('show_page',$page->show('6'));
         Tpl::output('member_info',$member_info);  
